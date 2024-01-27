@@ -1,0 +1,17 @@
+[package]
+name = "t03i"
+version = "0.1.0"
+edition = "2021"
+authors = [
+  "Brian M'Ikiara <brnikiara@gmail.com>"
+]
+
+[lib]
+path = "./src/lib.rs"
+
+[[bin]]
+name = "client"
+path = "./src/client.rs"
+
+[dependencies]
+crossterm = "0.27.0"
